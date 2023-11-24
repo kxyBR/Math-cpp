@@ -11,7 +11,7 @@ namespace Math {
     int divide(Args... args) {
         return (args / ...);
     }
-    int multply(Args... args) {
+    int multiply(Args... args) {
         return (args * ...);
     }
 }
